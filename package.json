@@ -1,0 +1,29 @@
+{
+  "name": "hakerinv2",
+  "version": "1.0.0",
+  "description": "Get Connected with Hackers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1rke/hakerinv3.git"
+  },
+  "keywords": [
+    "social",
+    "network",
+    "for",
+    "hackers"
+  ],
+  "author": "Mirke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m1rke/hakerinv3/issues"
+  },
+  "homepage": "https://github.com/m1rke/hakerinv3#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
+  }
+}
