@@ -4,7 +4,8 @@
   "description": "Get Connected with Hackers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "build": "cd client && ng build --prod && cd .. && node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,11 @@
   },
   "homepage": "https://github.com/m1rke/hakerinv3#readme",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
     "mongoose": "^4.13.6"
   }
 }

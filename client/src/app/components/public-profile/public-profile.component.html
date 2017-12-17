@@ -1,0 +1,15 @@
+<h1 class="page-header">Public Profile</h1>
+
+<div class="alert show-hide-message" *ngIf="message">
+  <div [ngClass]="messageClas">
+    {{message}}
+
+  </div>
+
+</div>
+
+<ul *ngIf="foundProfile" class="list-group">
+  <li class="list-group-item"><strong>Username: </strong>{{username}}</li>
+  <li class="list-group-item"><strong>E-mail: </strong>{{email}}</li>
+
+</ul>
